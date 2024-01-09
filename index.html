@@ -2,12 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- Set the character set and viewport for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Set favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/HNGx-icon">
+    
+    <!-- Set the title of the document -->
     <title>Day 22 - Flip-On-Hover Card</title>
 
-    <!--Google Fonts-->
+    <!-- Import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
@@ -16,20 +21,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Play:wght@400;700&display=swap" rel="stylesheet">
 
-    <!--Stylesheet-->
+    <!-- Import the external stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Container for the flip-on-hover cards -->
     <div class="box-container">
+        <!-- First flip-on-hover card -->
         <div class="box-item">
             <div class="flip-box">
+                <!-- Front face of the card with background image and content -->
                 <div class="flip-box-front text-center" style="background-image: url('imgs/moon.jpg');">
                     <div class="inner color-white">
                         <h3 class="flip-box-header">James 1:6-7</h3>
                         <p>Hover to read :)</p>
                     </div>
                 </div>
+                <!-- Back face of the card with background image and additional content -->
                 <div class="flip-box-back text-center" style="background-image: url('imgs/moon.jpg');">
                     <div class="inner color-white">
                         <h3 class="flip-box-header"></h3>
@@ -39,6 +48,8 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Second flip-on-hover card -->
         <div class="box-item">
             <div class="flip-box">
                 <div class="flip-box-front text-center" style="background-image: url('imgs/rose.jpg');">
@@ -56,6 +67,8 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Third flip-on-hover card -->
         <div class="box-item">
             <div class="flip-box">
                 <div class="flip-box-front text-center filter-" style="background-image: url('imgs/dark-sea.jpg');">
@@ -75,7 +88,7 @@
         </div>
     </div>
     
-    <!--Font awesome Link-->
+    <!-- Import Font Awesome library -->
     <script src="https://kit.fontawesome.com/08d9b1877f.js" crossorigin="anonymous"></script>
 </body>
 
